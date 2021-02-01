@@ -10,5 +10,8 @@ npm install -D eslint-plugin-react-hooks
 
 npm install -D cross-env
 
+//npm Install Reach router
 
-// Reach router
+npm install -D babel-eslint @babel/core @babel/preset-env @babel/plugin-proposal-class-properties @babel/preset-react
+
+//Explore transpile google analytics using babel preset env from package.json

@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-import { Link, Router } from "@reach/router";
+import { Router, Link } from "@reach/router";
 import SearchParams from "./SearchParams";
 import Details from "./Details";
 
@@ -13,7 +13,7 @@ const App = () => {
         </header>
         <Router>
           <SearchParams path="/" />
-          <Details path="/details/: id" />
+          <Details path="/details/:id" />
         </Router>
       </div>
     </React.StrictMode>
